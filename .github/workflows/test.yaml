@@ -29,4 +29,8 @@ jobs:
       run: cp ./1-integration_test/.env.example ./1-integration_test/.env
 
     - name: Run integration script
+<<<<<<< HEAD
       run: cd 1-integration_test && npm run test:integration
+=======
+      run: cd 1-integration_test && npm run test:integration
+>>>>>>> 4a5be89 (correct)
